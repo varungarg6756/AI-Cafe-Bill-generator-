@@ -11,10 +11,10 @@ import { promises as fs } from "fs";
 // const model = "openai/gpt-4.1";
 // const model = "openai/gpt-4.1-mini";
 
-const client = new OpenAI({
-  baseURL: "https://generativelanguage.googleapis.com/v1beta/openai/",
-  apiKey: process.env.GEMINI_API_KEY,
-});
+// const client = new OpenAI({
+//   baseURL: "https://generativelanguage.googleapis.com/v1beta/openai/",
+//   apiKey: process.env.GEMINI_API_KEY,
+// });
 
 const model = "gemini-2.5-pro";
 // const model = "gemini-2.5-flash";
